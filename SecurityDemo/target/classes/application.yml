@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    username: root
+    password: zn000122
+    url: jdbc:mysql://localhost:3306/j2ee?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  # 配置redis
+  redis:
+    host: 192.168.219.128
+    port: 6379
+    database: 2
+    password: root
+server:
+  port: 9000
+
+logging:
+  level:
+    com.zn.security: debug
